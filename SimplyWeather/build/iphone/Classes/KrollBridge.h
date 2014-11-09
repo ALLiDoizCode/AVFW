@@ -19,9 +19,9 @@
 
 #ifdef KROLL_COVERAGE
 # import "KrollCoverage.h"
-@interface ForcastObject : KrollCoverageObject {
+@interface SimplyWeatherObject : KrollCoverageObject {
 #else
-@interface ForcastObject : KrollObject {
+@interface SimplyWeatherObject : KrollObject {
 #endif
 @private
 	NSMutableDictionary *modules;
@@ -35,7 +35,7 @@
 -(TiModule*)moduleNamed:(NSString*)name context:(id<TiEvaluator>)context;
 @end
 
-extern NSString * Forcast$ModuleRequireFormat;
+extern NSString * SimplyWeather$ModuleRequireFormat;
 
 @interface KrollBridge : Bridge<TiEvaluator,KrollDelegate> {
 @private
@@ -44,7 +44,7 @@ extern NSString * Forcast$ModuleRequireFormat;
 	KrollContext *context;
 	NSDictionary *preload;
 	NSMutableDictionary *modules;
-	ForcastObject *_forcast;
+	SimplyWeatherObject *_simplyweather;
     KrollObject* console;
 	BOOL shutdown;
     BOOL evaluationError;

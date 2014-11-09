@@ -7,12 +7,7 @@ var getData = function(lat, lng){
 		Client.open('GET',url);
 		Client.send();
 		Client.onerror = function(){
-		var dataArray = dataBase.read();
-		for(var i in dataArray){
-			tempLabel.text = dataArray.temp;
-			cityLabel.text = dataArray.city;
-			descLabel.text = dataArray.desc;
-		}
+		dataBase.read();
 		Ti.UI.createAlertDialog({
 			title: 'Network Error',
 			message: 'unable to retrieve data'
@@ -30,7 +25,7 @@ var getData = function(lat, lng){
 			var current = data[0].conditions;
 		
 		dataBase.create(high, cityInfo, current);
-		
+		dataBase.readCloud();
 			tempLabel.text = high;
 			cityLabel.text = cityInfo;
 			descLabel.text = current;

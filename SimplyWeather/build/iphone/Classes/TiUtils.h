@@ -39,7 +39,7 @@ typedef enum {
 } EncodingError;
 
 /**
- Forcast orientation flags.
+ SimplyWeather orientation flags.
  */
 typedef enum
 {

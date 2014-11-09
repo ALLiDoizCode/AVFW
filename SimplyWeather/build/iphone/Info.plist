@@ -17,7 +17,7 @@
 			<string>com.fullsail.demoApp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>forcast</string>
+				<string>simplyweather</string>
 			</array>
 		</dict>
 	</array>

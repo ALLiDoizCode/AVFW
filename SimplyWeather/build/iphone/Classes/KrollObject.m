@@ -302,10 +302,10 @@ bool KrollSetProperty(TiContextRef jsContext, TiObjectRef object, TiStringRef pr
 
 // forward declare these
 
-//@interface ForcastObject : NSObject
+//@interface SimplyWeatherObject : NSObject
 //@end
 
-@interface ForcastObject (Private)
+@interface SimplyWeatherObject (Private)
 -(NSDictionary*)modules;
 @end
 
@@ -323,9 +323,9 @@ void KrollPropertyNames(TiContextRef ctx, TiObjectRef object, TiPropertyNameAccu
 	{
 		id target = [o target];
 		
-		if ([o isKindOfClass:[ForcastObject class]])
+		if ([o isKindOfClass:[SimplyWeatherObject class]])
 		{
-			for (NSString *key in [[(ForcastObject*)o modules] allKeys])
+			for (NSString *key in [[(SimplyWeatherObject*)o modules] allKeys])
 			{
 				TiStringRef value = TiStringCreateWithUTF8CString([key UTF8String]);
 				TiPropertyNameAccumulatorAddName(propertyNames,value);

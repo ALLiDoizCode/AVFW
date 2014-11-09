@@ -20,9 +20,9 @@ extern NSString * const APSDeployTypeProduction;
 
 /**
  * The APSAnalytics class configures the application to use the APS analytic services
- * to send analytic data that can be viewed on the Forcast Dashboard.
+ * to send analytic data that can be viewed on the SimplyWeather Dashboard.
  *
- * For information on getting started with Forcast Platform Services,
+ * For information on getting started with SimplyWeather Platform Services,
  * see [Appclerator Platform Services for iOS](http://bit.ly/1kqteQS).
  */
 @interface APSAnalytics : NSObject

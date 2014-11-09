@@ -17,7 +17,7 @@
  */
 @protocol TiKeyboardFocusableView
 
-#pragma mark Public Forcast APIs.
+#pragma mark Public SimplyWeather APIs.
 
 /**
  Tells the view to focus.

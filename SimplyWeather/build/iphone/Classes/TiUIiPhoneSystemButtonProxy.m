@@ -39,12 +39,12 @@ MAKE_SYSTEM_PROP(DONE,UIBarButtonSystemItemDone);
 MAKE_SYSTEM_PROP(FLEXIBLE_SPACE,UIBarButtonSystemItemFlexibleSpace);
 MAKE_SYSTEM_PROP(FIXED_SPACE,UIBarButtonSystemItemFixedSpace);
 
-MAKE_SYSTEM_PROP(ACTIVITY,UIForcastNativeItemSpinner);
-MAKE_SYSTEM_PROP(SPINNER,UIForcastNativeItemSpinner);
-MAKE_SYSTEM_PROP(INFO_LIGHT,UIForcastNativeItemInfoLight);
-MAKE_SYSTEM_PROP(INFO_DARK,UIForcastNativeItemInfoDark);
-MAKE_SYSTEM_PROP(DISCLOSURE,UIForcastNativeItemDisclosure);
-MAKE_SYSTEM_PROP(CONTACT_ADD,UIForcastNativeItemContactAdd);
+MAKE_SYSTEM_PROP(ACTIVITY,UISimplyWeatherNativeItemSpinner);
+MAKE_SYSTEM_PROP(SPINNER,UISimplyWeatherNativeItemSpinner);
+MAKE_SYSTEM_PROP(INFO_LIGHT,UISimplyWeatherNativeItemInfoLight);
+MAKE_SYSTEM_PROP(INFO_DARK,UISimplyWeatherNativeItemInfoDark);
+MAKE_SYSTEM_PROP(DISCLOSURE,UISimplyWeatherNativeItemDisclosure);
+MAKE_SYSTEM_PROP(CONTACT_ADD,UISimplyWeatherNativeItemContactAdd);
 
 
 @end

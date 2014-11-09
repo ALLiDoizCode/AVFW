@@ -13,7 +13,7 @@
 @class TiHost;
 
 /**
- The base class for all Forcast modules
+ The base class for all SimplyWeather modules
  */
 @interface TiModule : TiProxy 
 {
@@ -51,30 +51,30 @@
 // lifecycle
 
 /**
- Forcast Platform calls this method on startup.
+ SimplyWeather Platform calls this method on startup.
  */
 -(void)startup;
 
 /**
- Forcast Platform calls this method on shutdown.
+ SimplyWeather Platform calls this method on shutdown.
  @param sender The sender of the event.
  */
 -(void)shutdown:(id)sender;
 
 /**
- Forcast Platform calls this method on suspend.
+ SimplyWeather Platform calls this method on suspend.
  @param sender The sender of the event.
  */
 -(void)suspend:(id)sender;
 
 /**
- Forcast Platform calls this method on entering background.
+ SimplyWeather Platform calls this method on entering background.
  @param sender The sender of the event.
  */
 -(void)paused:(id)sender;
 
 /**
- Forcast Platform calls this method on resume.
+ SimplyWeather Platform calls this method on resume.
  @param sender The sender of the event.
  */
 -(void)resume:(id)sender;

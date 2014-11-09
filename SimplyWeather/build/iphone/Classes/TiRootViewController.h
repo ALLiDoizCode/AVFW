@@ -54,7 +54,7 @@
     NSInteger activeAlertControllerCount;
 }
 
-//Forcast Support
+//SimplyWeather Support
 -(CGRect)resizeView;
 -(void)repositionSubviews;
 -(UIView *)topWindowProxyView;

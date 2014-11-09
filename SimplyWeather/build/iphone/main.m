@@ -11,11 +11,11 @@ NSString * const TI_APPLICATION_DEPLOYTYPE = @"test";
 NSString * const TI_APPLICATION_ID = @"com.fullsail.demoApp";
 NSString * const TI_APPLICATION_PUBLISHER = @"JonJon";
 NSString * const TI_APPLICATION_URL = @"http://";
-NSString * const TI_APPLICATION_NAME = @"Forcast";
+NSString * const TI_APPLICATION_NAME = @"SimplyWeather";
 NSString * const TI_APPLICATION_VERSION = @"1.0";
 NSString * const TI_APPLICATION_DESCRIPTION = @"undefined";
 NSString * const TI_APPLICATION_COPYRIGHT = @"2014 by JonJon";
-NSString * const TI_APPLICATION_GUID = @"d059ec2d-33c2-45c6-83dd-8486fd2a94a3";
+NSString * const TI_APPLICATION_GUID = @"07b6d61e-6de1-42ba-95ad-8eaf8f73489b";
 BOOL const TI_APPLICATION_ANALYTICS = true;
 NSString * const TI_APPLICATION_BUILD_TYPE = @"";
 

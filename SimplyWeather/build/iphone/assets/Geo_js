@@ -1,1 +1,1 @@
-var geo=function(){Ti.Geolocation.getCurrentPosition(function(o){var t=o.coords.latitude,i=o.coords.longitude;api.getData(t,i)})};geo();
+var geo=function(){Ti.Geolocation.getCurrentPosition(function(e){lat=e.coords.latitude,lng=e.coords.longitude,api.getData(lat,lng)})};geo();

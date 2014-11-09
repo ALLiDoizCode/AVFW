@@ -4,7 +4,7 @@
 // No warranty is expressed or implied.
 
 
-// NOTE: Forcast modified to convert from Category to 
+// NOTE: SimplyWeather modified to convert from Category to 
 // new Class name since iPhone seems to have some issues with Categories
 // of built in Classes
 

@@ -254,7 +254,7 @@
 }
 
 
-#pragma mark - Forcast Internal Use Only
+#pragma mark - SimplyWeather Internal Use Only
 -(void)updateKeyboardStatus
 {
     if ( ([[[TiApp app] controller] keyboardVisible]) && ([[[TiApp app] controller] keyboardFocusedProxy] == [self proxy]) ) {

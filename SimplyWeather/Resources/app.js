@@ -44,7 +44,7 @@ var cityLabel = Ti.UI.createLabel({
 	color:'#ffffff',
 	top:'center',
 	font:{
-	fontSize: '90sp',
+	fontSize: '100sp',
 	fontWeight: 'bold'
 	}
 });
@@ -54,7 +54,7 @@ var tempLabel = Ti.UI.createLabel({
 	left:'center',
 	top: '30%',
 	font:{
-	fontSize: '220sp',
+	fontSize: '200sp',
 	fontFamily: 'Helvetica Neue Thin' 
 	}
 });
@@ -65,7 +65,7 @@ var descLabel = Ti.UI.createLabel({
 	top: '10%',
 	horizontalWrap: true,
 	font:{
-	fontSize: '45sp',
+	fontSize: '65sp',
 	//fontWeight: 'bold'
 	}
 });

@@ -52,7 +52,7 @@
 @end
 
 /**
- Protocol for containment controller. Implemented by UIViewControllers that can host Forcast Windows
+ Protocol for containment controller. Implemented by UIViewControllers that can host SimplyWeather Windows
  */
 @protocol TiControllerContainment <NSObject>
 @required

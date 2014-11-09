@@ -60,7 +60,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for Forcast Developer console
+// in simulator we redefine to format for SimplyWeather Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +309,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.forcast." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.simplyweather." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.forcast";\
+	NSString * exceptionName = @"org.simplyweather";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -415,28 +415,28 @@ DebugLog(@"[WARN] Ti%@.%@ DEPRECATED in %@, in favor of %@.",@"tanium",api,in,ne
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UIForcastNativeItemNone = -1, 
-	UIForcastNativeItemSpinner = -2,
-	UIForcastNativeItemProgressBar = -3,
+	UISimplyWeatherNativeItemNone = -1, 
+	UISimplyWeatherNativeItemSpinner = -2,
+	UISimplyWeatherNativeItemProgressBar = -3,
 	
-	UIForcastNativeItemSlider = -4,
-	UIForcastNativeItemSwitch = -5,
-	UIForcastNativeItemMultiButton = -6,
-	UIForcastNativeItemSegmented = -7,
+	UISimplyWeatherNativeItemSlider = -4,
+	UISimplyWeatherNativeItemSwitch = -5,
+	UISimplyWeatherNativeItemMultiButton = -6,
+	UISimplyWeatherNativeItemSegmented = -7,
 	
-	UIForcastNativeItemTextView = -8,
-	UIForcastNativeItemTextField = -9,
-	UIForcastNativeItemSearchBar = -10,
+	UISimplyWeatherNativeItemTextView = -8,
+	UISimplyWeatherNativeItemTextField = -9,
+	UISimplyWeatherNativeItemSearchBar = -10,
 	
-	UIForcastNativeItemPicker = -11,
-	UIForcastNativeItemDatePicker = -12,
+	UISimplyWeatherNativeItemPicker = -11,
+	UISimplyWeatherNativeItemDatePicker = -12,
 	
-	UIForcastNativeItemInfoLight = -13,
-	UIForcastNativeItemInfoDark = -14,
+	UISimplyWeatherNativeItemInfoLight = -13,
+	UISimplyWeatherNativeItemInfoDark = -14,
 	
-	UIForcastNativeItemDisclosure = -15,
+	UISimplyWeatherNativeItemDisclosure = -15,
 	
-	UIForcastNativeItemContactAdd = -16
+	UISimplyWeatherNativeItemContactAdd = -16
 };
 
 
@@ -617,7 +617,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
     
 /**
- *	TiThreadPerformOnMainThread should replace all Forcast instances of
+ *	TiThreadPerformOnMainThread should replace all SimplyWeather instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

@@ -277,7 +277,7 @@ TiValueRef KrollCallAsNamedFunction(TiContextRef jsContext, TiObjectRef func, Ti
 	// create proxy method invocation
 	if (_methodSignature==nil)
 	{
-		@throw [NSException exceptionWithName:@"org.forcast.kroll" reason:[NSString stringWithFormat:@"invalid method '%@'",NSStringFromSelector(selector)] userInfo:nil];
+		@throw [NSException exceptionWithName:@"org.simplyweather.kroll" reason:[NSString stringWithFormat:@"invalid method '%@'",NSStringFromSelector(selector)] userInfo:nil];
 	}
 	IMP methodFunction = [target methodForSelector:selector];
 	id arg1=nil;

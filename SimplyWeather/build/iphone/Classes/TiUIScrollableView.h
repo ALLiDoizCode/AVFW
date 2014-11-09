@@ -33,7 +33,7 @@
     BOOL pageChanged;
 }
 
-#pragma mark - Forcast Internal Use Only
+#pragma mark - SimplyWeather Internal Use Only
 -(void)manageRotation;
 -(UIScrollView*)scrollview;
 -(void)refreshScrollView:(CGRect)visibleBounds readd:(BOOL)readd;

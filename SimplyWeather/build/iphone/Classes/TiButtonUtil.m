@@ -16,23 +16,23 @@
 {
 	switch (type)
 	{
-		case UIForcastNativeItemInfoLight:
+		case UISimplyWeatherNativeItemInfoLight:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoLight];
 		}
-		case UIForcastNativeItemInfoDark:
+		case UISimplyWeatherNativeItemInfoDark:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoDark];
 		}
-		case UIForcastNativeItemDisclosure:
+		case UISimplyWeatherNativeItemDisclosure:
 		{
 			return [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 		}
-		case UIForcastNativeItemContactAdd:
+		case UISimplyWeatherNativeItemContactAdd:
 		{
 			return [UIButton buttonWithType:UIButtonTypeContactAdd];
 		}
-		case UIForcastNativeItemSpinner:
+		case UISimplyWeatherNativeItemSpinner:
 		{
 			UIActivityIndicatorView *button = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite] autorelease];
 			[button startAnimating];

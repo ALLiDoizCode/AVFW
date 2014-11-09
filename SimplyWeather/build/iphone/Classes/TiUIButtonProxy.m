@@ -68,10 +68,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UIForcastNativeItemInfoLight:
-		case UIForcastNativeItemInfoDark:
+		case UISimplyWeatherNativeItemInfoLight:
+		case UISimplyWeatherNativeItemInfoDark:
 			return 18;
-		case UIForcastNativeItemDisclosure:
+		case UISimplyWeatherNativeItemDisclosure:
 			return 29;
 		default: {
 			break;
@@ -84,10 +84,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UIForcastNativeItemInfoLight:
-		case UIForcastNativeItemInfoDark:
+		case UISimplyWeatherNativeItemInfoLight:
+		case UISimplyWeatherNativeItemInfoDark:
 			return 19;
-		case UIForcastNativeItemDisclosure:
+		case UISimplyWeatherNativeItemDisclosure:
 			return 31;
 		default: {
 			break;
@@ -101,9 +101,9 @@
 {
 	switch ((int)styleCache)
 	{
-		case UIForcastNativeItemInfoLight:
-		case UIForcastNativeItemInfoDark:
-		case UIForcastNativeItemDisclosure:
+		case UISimplyWeatherNativeItemInfoLight:
+		case UISimplyWeatherNativeItemInfoDark:
+		case UISimplyWeatherNativeItemDisclosure:
 			return suggestedResizing & ~(UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
 		default: {
 			break;

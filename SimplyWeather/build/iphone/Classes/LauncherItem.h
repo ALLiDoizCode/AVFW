@@ -9,9 +9,9 @@
 
 
 // A good bit of this code was derived from the Three20 project
-// and was customized to work inside Forcast
+// and was customized to work inside SimplyWeather
 //
-// All modifications by Forcast are licensed under 
+// All modifications by SimplyWeather are licensed under 
 // the Apache License, Version 2.0
 //
 //

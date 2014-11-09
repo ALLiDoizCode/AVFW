@@ -1,5 +1,5 @@
 /**
- * Forcast APSHTTPClient Library
+ * SimplyWeather APSHTTPClient Library
  * Copyright (c) 2009-2014 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger, APSRequestError) {
  */
 @property(nonatomic, strong, readwrite) NSArray                          *runModes;
 
-// Only used in Forcast ImageLoader
+// Only used in SimplyWeather ImageLoader
 @property(nonatomic, strong, readwrite) NSDictionary                     *userInfo;
 
 -(void)send;
