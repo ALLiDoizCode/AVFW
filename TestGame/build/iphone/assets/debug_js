@@ -1,0 +1,1 @@
+game.debug=!0,game.enableOnFpsEvent=!0,game.onFpsInterval=5e3,game.addEventListener("onfps",function(e){Ti.API.info(e.fps.toFixed(2)+" fps")}),platino.addEventListener("onlowmemory",function(){Ti.API.warn("Low Memory")});

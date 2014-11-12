@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="2048" height="768" tilewidth="1" tileheight="1">
+ <tileset firstgid="1" name="rocks_grass_block" tilewidth="286" tileheight="286">
+  <image source="../../For_Tiled/rocks_grass_block.png" width="286" height="288"/>
+ </tileset>
+ <tileset firstgid="2" name="rocks_with_waterfall" tilewidth="222" tileheight="331">
+  <image source="../../For_Tiled/rocks_with_waterfall.png" width="222" height="331"/>
+ </tileset>
+ <tileset firstgid="3" name="rocks_thin" tilewidth="64" tileheight="332">
+  <image source="../../For_Tiled/rocks_thin.png" width="64" height="332"/>
+ </tileset>
+ <tileset firstgid="4" name="vine" tilewidth="20" tileheight="495">
+  <image source="../../For_Tiled/vine.png" width="20" height="495"/>
+ </tileset>
+ <tileset firstgid="5" name="mountain_range" tilewidth="1682" tileheight="396">
+  <image source="../../For_Tiled/mountain_range.png" width="1682" height="396"/>
+ </tileset>
+ <tileset firstgid="6" name="cloud1" tilewidth="187" tileheight="100">
+  <image source="../../For_Tiled/cloud1.png" width="187" height="100"/>
+ </tileset>
+ <tileset firstgid="7" name="cloud2" tilewidth="135" tileheight="62">
+  <image source="../../For_Tiled/cloud2.png" width="135" height="62"/>
+ </tileset>
+ <tileset firstgid="8" name="rocks_grass_block2" tilewidth="222" tileheight="331">
+  <image source="../../For_Tiled/rocks_grass_block2.png" width="222" height="331"/>
+ </tileset>
+ <tileset firstgid="9" name="rocks_grass_blurry" tilewidth="615" tileheight="233">
+  <image source="../../For_Tiled/rocks_grass_blurry.png" width="615" height="233"/>
+ </tileset>
+ <tileset firstgid="10" name="waterfall" tilewidth="138" tileheight="237">
+  <image source="../../For_Tiled/waterfall.png" width="138" height="237"/>
+ </tileset>
+ <tileset firstgid="11" name="rocks_grass_thin" tilewidth="99" tileheight="288">
+  <image source="../../For_Tiled/rocks_grass_thin.png" width="99" height="288"/>
+ </tileset>
+ <objectgroup name="Tiles" width="2048" height="768">
+  <object type="Boundaries" x="128" y="2" width="2048" height="813"/>
+  <object name="Mountains" type="Objects" gid="5" x="-456" y="534"/>
+  <object name="Color" type="Tiles" x="-446" y="458" width="3575" height="415"/>
+  <object name="Cloud1" type="Objects" gid="6" x="43" y="142"/>
+  <object name="Cloud1" type="Objects" gid="6" x="452" y="142"/>
+  <object name="Cloud1" type="Objects" gid="6" x="853" y="177"/>
+  <object name="Cloud1" type="Objects" gid="6" x="1294" y="180"/>
+  <object name="Mountains" type="Objects" gid="5" x="1134" y="536"/>
+  <object name="Cloud1" type="Objects" gid="6" x="1691" y="144"/>
+  <object name="Cloud2" type="Objects" gid="7" x="1514" y="137"/>
+  <object name="Cloud2" type="Objects" gid="7" x="1094" y="154"/>
+  <object name="Cloud2" type="Objects" gid="7" x="679" y="166"/>
+  <object name="Cloud2" type="Objects" gid="7" x="290" y="166"/>
+  <object name="Platform2" type="Objects" gid="2" x="929" y="591"/>
+ </objectgroup>
+ <objectgroup name="BackPlatforms" width="2048" height="768">
+  <object name="Platform2" type="Objects" gid="2" x="198" y="575"/>
+  <object name="Platform2" type="Objects" gid="2" x="515" y="603"/>
+  <object name="Platform_No_Body" type="Objects" gid="3" x="402" y="576"/>
+  <object name="Platform_No_Body" type="Objects" gid="3" x="456" y="575"/>
+  <object name="Platform3" type="Objects" gid="8" x="1142" y="618"/>
+  <object name="Platform" type="Objects" gid="1" x="952" y="851"/>
+  <object name="Platform" type="Objects" gid="1" x="1227" y="827"/>
+  <object name="Waterfall" type="Objects" gid="10" x="728" y="573"/>
+  <object name="Waterfall" type="Objects" gid="10" x="813" y="573"/>
+  <object name="Vine" type="Objects" gid="4" x="1428" y="462"/>
+  <object name="Vine" type="Objects" gid="4" x="1586" y="396"/>
+  <object name="Platform_Thin" type="Objects" gid="11" x="1766" y="599"/>
+  <object name="Platform" type="Objects" gid="1" x="1779" y="874"/>
+  <object name="Vine" type="Objects" gid="4" x="1766" y="272"/>
+  <object name="Vine" type="Objects" gid="4" x="1970" y="402"/>
+ </objectgroup>
+ <objectgroup name="Objects" width="2048" height="768">
+  <object name="StartingPoint" type="Portals" x="183" y="416" width="73" height="57"/>
+  <object name="Platform" type="Objects" gid="1" x="129" y="773"/>
+  <object name="Platform" type="Objects" gid="1" x="408" y="795"/>
+  <object name="Platform" type="Objects" gid="1" x="682" y="849"/>
+  <object name="InstantDeath" type="Objects" x="-31" y="780" width="2129" height="31"/>
+  <object name="Vine" type="Objects" gid="4" x="446" y="473"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2" width="2048" height="768">
+  <object name="Foreground" type="Objects" gid="9" x="20" y="930"/>
+  <object name="Foreground" type="Objects" gid="9" x="797" y="874"/>
+  <object name="Foreground" type="Objects" gid="9" x="1599" y="913"/>
+  <object name="Platform" type="Objects" gid="1" x="1505" y="875"/>
+ </objectgroup>
+</map>
