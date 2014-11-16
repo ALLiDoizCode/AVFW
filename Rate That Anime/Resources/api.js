@@ -1,5 +1,5 @@
-var getData = function(){
-	var url = 'https://hbrd-v1.p.mashape.com/users/di3twater/library';
+var getData = function(){ 
+	var url = 'https://hbrd-v1.p.mashape.com/users/'+ username.value +'/library';
 	if(Ti.Network.online){
 		var Client = Ti.Network.createHTTPClient();
 		Client.open('GET',url);
