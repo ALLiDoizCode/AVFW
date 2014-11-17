@@ -1,5 +1,8 @@
+var login = require('login');
 var getData = function(){ 
-	var url = 'https://hbrd-v1.p.mashape.com/users/'+ username.value +'/library';
+	user = login.name.value;
+	console.log(user);
+	var url = 'https://hbrd-v1.p.mashape.com/users/'+user+'/library';
 	if(Ti.Network.online){
 		var Client = Ti.Network.createHTTPClient();
 		Client.open('GET',url);
@@ -43,3 +46,4 @@ var getData = function(){
 };
 
 exports.getData = getData;
+

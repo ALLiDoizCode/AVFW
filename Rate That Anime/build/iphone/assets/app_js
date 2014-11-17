@@ -1,1 +1,0 @@
-Titanium.UI.setBackgroundColor("#fff");var tabGroup=Titanium.UI.createTabGroup(),login=Titanium.UI.createWindow({title:"User Login",tabBarHidden:!0,url:"login.js"}),loginTab=Titanium.UI.createTab({title:"Login",window:login});tabGroup.addTab(loginTab),tabGroup.open();

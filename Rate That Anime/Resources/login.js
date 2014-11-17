@@ -1,6 +1,6 @@
 var win = Titanium.UI.currentWindow;
 
- username = Titanium.UI.createTextField({
+ var username = Titanium.UI.createTextField({
     color:'#336699',
     top:'35%',
     width:300,
@@ -27,6 +27,6 @@ loginBtn.addEventListener('click',function(){
 	});
 	Ti.UI.currentTab.open(loadFile);
 });
-
+exports.username = name;
 win.add(username);
 win.add(loginBtn);
