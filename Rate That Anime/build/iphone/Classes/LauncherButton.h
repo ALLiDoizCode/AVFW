@@ -9,9 +9,9 @@
 
 
 // A good bit of this code was derived from the Three20 project
-// and was customized to work inside RateThatAnime
+// and was customized to work inside AnimeBoard
 //
-// All modifications by RateThatAnime are licensed under 
+// All modifications by AnimeBoard are licensed under 
 // the Apache License, Version 2.0
 //
 //

@@ -13,7 +13,7 @@
 @class TiHost;
 
 /**
- The base class for all RateThatAnime modules
+ The base class for all AnimeBoard modules
  */
 @interface TiModule : TiProxy 
 {
@@ -51,30 +51,30 @@
 // lifecycle
 
 /**
- RateThatAnime Platform calls this method on startup.
+ AnimeBoard Platform calls this method on startup.
  */
 -(void)startup;
 
 /**
- RateThatAnime Platform calls this method on shutdown.
+ AnimeBoard Platform calls this method on shutdown.
  @param sender The sender of the event.
  */
 -(void)shutdown:(id)sender;
 
 /**
- RateThatAnime Platform calls this method on suspend.
+ AnimeBoard Platform calls this method on suspend.
  @param sender The sender of the event.
  */
 -(void)suspend:(id)sender;
 
 /**
- RateThatAnime Platform calls this method on entering background.
+ AnimeBoard Platform calls this method on entering background.
  @param sender The sender of the event.
  */
 -(void)paused:(id)sender;
 
 /**
- RateThatAnime Platform calls this method on resume.
+ AnimeBoard Platform calls this method on resume.
  @param sender The sender of the event.
  */
 -(void)resume:(id)sender;

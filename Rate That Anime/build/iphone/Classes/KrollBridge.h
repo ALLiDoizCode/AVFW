@@ -19,9 +19,9 @@
 
 #ifdef KROLL_COVERAGE
 # import "KrollCoverage.h"
-@interface RateThatAnimeObject : KrollCoverageObject {
+@interface AnimeBoardObject : KrollCoverageObject {
 #else
-@interface RateThatAnimeObject : KrollObject {
+@interface AnimeBoardObject : KrollObject {
 #endif
 @private
 	NSMutableDictionary *modules;
@@ -35,7 +35,7 @@
 -(TiModule*)moduleNamed:(NSString*)name context:(id<TiEvaluator>)context;
 @end
 
-extern NSString * RateThatAnime$ModuleRequireFormat;
+extern NSString * AnimeBoard$ModuleRequireFormat;
 
 @interface KrollBridge : Bridge<TiEvaluator,KrollDelegate> {
 @private
@@ -44,7 +44,7 @@ extern NSString * RateThatAnime$ModuleRequireFormat;
 	KrollContext *context;
 	NSDictionary *preload;
 	NSMutableDictionary *modules;
-	RateThatAnimeObject *_ratethatanime;
+	AnimeBoardObject *_animeboard;
     KrollObject* console;
 	BOOL shutdown;
     BOOL evaluationError;

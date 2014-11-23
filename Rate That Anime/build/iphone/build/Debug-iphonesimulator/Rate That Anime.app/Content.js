@@ -1,1 +1,0 @@
-/Users/JonJon/Documents/AFW/Rate That Anime/Resources/Content.js

@@ -39,12 +39,12 @@ MAKE_SYSTEM_PROP(DONE,UIBarButtonSystemItemDone);
 MAKE_SYSTEM_PROP(FLEXIBLE_SPACE,UIBarButtonSystemItemFlexibleSpace);
 MAKE_SYSTEM_PROP(FIXED_SPACE,UIBarButtonSystemItemFixedSpace);
 
-MAKE_SYSTEM_PROP(ACTIVITY,UIRateThatAnimeNativeItemSpinner);
-MAKE_SYSTEM_PROP(SPINNER,UIRateThatAnimeNativeItemSpinner);
-MAKE_SYSTEM_PROP(INFO_LIGHT,UIRateThatAnimeNativeItemInfoLight);
-MAKE_SYSTEM_PROP(INFO_DARK,UIRateThatAnimeNativeItemInfoDark);
-MAKE_SYSTEM_PROP(DISCLOSURE,UIRateThatAnimeNativeItemDisclosure);
-MAKE_SYSTEM_PROP(CONTACT_ADD,UIRateThatAnimeNativeItemContactAdd);
+MAKE_SYSTEM_PROP(ACTIVITY,UIAnimeBoardNativeItemSpinner);
+MAKE_SYSTEM_PROP(SPINNER,UIAnimeBoardNativeItemSpinner);
+MAKE_SYSTEM_PROP(INFO_LIGHT,UIAnimeBoardNativeItemInfoLight);
+MAKE_SYSTEM_PROP(INFO_DARK,UIAnimeBoardNativeItemInfoDark);
+MAKE_SYSTEM_PROP(DISCLOSURE,UIAnimeBoardNativeItemDisclosure);
+MAKE_SYSTEM_PROP(CONTACT_ADD,UIAnimeBoardNativeItemContactAdd);
 
 
 @end

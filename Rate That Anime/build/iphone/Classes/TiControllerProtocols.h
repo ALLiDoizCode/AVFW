@@ -52,7 +52,7 @@
 @end
 
 /**
- Protocol for containment controller. Implemented by UIViewControllers that can host RateThatAnime Windows
+ Protocol for containment controller. Implemented by UIViewControllers that can host AnimeBoard Windows
  */
 @protocol TiControllerContainment <NSObject>
 @required

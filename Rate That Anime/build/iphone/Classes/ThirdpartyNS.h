@@ -7,8 +7,8 @@
  * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
-#ifndef RateThatAnime_ThirdpartyNS_h
-#define RateThatAnime_ThirdpartyNS_h
+#ifndef AnimeBoard_ThirdpartyNS_h
+#define AnimeBoard_ThirdpartyNS_h
 
 #ifndef __TI_NAMESPACE_PREFIX_
 #define __TI_NAMESPACE_PREFIX_	TI

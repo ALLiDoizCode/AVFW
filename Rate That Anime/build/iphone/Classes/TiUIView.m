@@ -764,7 +764,7 @@ DEFINE_EXCEPTIONS
 
 /**
  This section of code for shadow support adapted from contributions by Martin Guillon
- See https://github.com/appcelerator/_ratethatanime_mobile/pull/2996
+ See https://github.com/appcelerator/_animeboard_mobile/pull/2996
  */
 -(CALayer *)shadowLayer
 {

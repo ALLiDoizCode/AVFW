@@ -68,10 +68,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UIRateThatAnimeNativeItemInfoLight:
-		case UIRateThatAnimeNativeItemInfoDark:
+		case UIAnimeBoardNativeItemInfoLight:
+		case UIAnimeBoardNativeItemInfoDark:
 			return 18;
-		case UIRateThatAnimeNativeItemDisclosure:
+		case UIAnimeBoardNativeItemDisclosure:
 			return 29;
 		default: {
 			break;
@@ -84,10 +84,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UIRateThatAnimeNativeItemInfoLight:
-		case UIRateThatAnimeNativeItemInfoDark:
+		case UIAnimeBoardNativeItemInfoLight:
+		case UIAnimeBoardNativeItemInfoDark:
 			return 19;
-		case UIRateThatAnimeNativeItemDisclosure:
+		case UIAnimeBoardNativeItemDisclosure:
 			return 31;
 		default: {
 			break;
@@ -101,9 +101,9 @@
 {
 	switch ((int)styleCache)
 	{
-		case UIRateThatAnimeNativeItemInfoLight:
-		case UIRateThatAnimeNativeItemInfoDark:
-		case UIRateThatAnimeNativeItemDisclosure:
+		case UIAnimeBoardNativeItemInfoLight:
+		case UIAnimeBoardNativeItemInfoDark:
+		case UIAnimeBoardNativeItemDisclosure:
 			return suggestedResizing & ~(UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
 		default: {
 			break;

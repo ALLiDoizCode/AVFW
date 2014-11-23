@@ -54,7 +54,7 @@
     NSInteger activeAlertControllerCount;
 }
 
-//RateThatAnime Support
+//AnimeBoard Support
 -(CGRect)resizeView;
 -(void)repositionSubviews;
 -(UIView *)topWindowProxyView;

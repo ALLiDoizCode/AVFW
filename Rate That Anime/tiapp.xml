@@ -4,7 +4,7 @@
     <property name="acs-api-key-production" type="string">c9Nf2ZHhotpD5FZARCutwMFop5YpLS6Q</property>
     <property name="acs-api-key-development" type="string">2GX1ny9sSClw7cAa7fkvadGsNwqcq6zk</property>
     <id>com.fullsail.demoApp</id>
-    <name>Rate That Anime</name>
+    <name>Anime Board</name>
     <version>1.0</version>
     <publisher>JonJon</publisher>
     <url>http://</url>

@@ -254,7 +254,7 @@
 }
 
 
-#pragma mark - RateThatAnime Internal Use Only
+#pragma mark - AnimeBoard Internal Use Only
 -(void)updateKeyboardStatus
 {
     if ( ([[[TiApp app] controller] keyboardVisible]) && ([[[TiApp app] controller] keyboardFocusedProxy] == [self proxy]) ) {

@@ -39,7 +39,7 @@ typedef enum {
 } EncodingError;
 
 /**
- RateThatAnime orientation flags.
+ AnimeBoard orientation flags.
  */
 typedef enum
 {

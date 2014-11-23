@@ -17,7 +17,7 @@
  */
 @protocol TiKeyboardFocusableView
 
-#pragma mark Public RateThatAnime APIs.
+#pragma mark Public AnimeBoard APIs.
 
 /**
  Tells the view to focus.

@@ -60,7 +60,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for RateThatAnime Developer console
+// in simulator we redefine to format for AnimeBoard Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +309,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.ratethatanime." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.animeboard." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.ratethatanime";\
+	NSString * exceptionName = @"org.animeboard";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -415,28 +415,28 @@ DebugLog(@"[WARN] Ti%@.%@ DEPRECATED in %@, in favor of %@.",@"tanium",api,in,ne
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UIRateThatAnimeNativeItemNone = -1, 
-	UIRateThatAnimeNativeItemSpinner = -2,
-	UIRateThatAnimeNativeItemProgressBar = -3,
+	UIAnimeBoardNativeItemNone = -1, 
+	UIAnimeBoardNativeItemSpinner = -2,
+	UIAnimeBoardNativeItemProgressBar = -3,
 	
-	UIRateThatAnimeNativeItemSlider = -4,
-	UIRateThatAnimeNativeItemSwitch = -5,
-	UIRateThatAnimeNativeItemMultiButton = -6,
-	UIRateThatAnimeNativeItemSegmented = -7,
+	UIAnimeBoardNativeItemSlider = -4,
+	UIAnimeBoardNativeItemSwitch = -5,
+	UIAnimeBoardNativeItemMultiButton = -6,
+	UIAnimeBoardNativeItemSegmented = -7,
 	
-	UIRateThatAnimeNativeItemTextView = -8,
-	UIRateThatAnimeNativeItemTextField = -9,
-	UIRateThatAnimeNativeItemSearchBar = -10,
+	UIAnimeBoardNativeItemTextView = -8,
+	UIAnimeBoardNativeItemTextField = -9,
+	UIAnimeBoardNativeItemSearchBar = -10,
 	
-	UIRateThatAnimeNativeItemPicker = -11,
-	UIRateThatAnimeNativeItemDatePicker = -12,
+	UIAnimeBoardNativeItemPicker = -11,
+	UIAnimeBoardNativeItemDatePicker = -12,
 	
-	UIRateThatAnimeNativeItemInfoLight = -13,
-	UIRateThatAnimeNativeItemInfoDark = -14,
+	UIAnimeBoardNativeItemInfoLight = -13,
+	UIAnimeBoardNativeItemInfoDark = -14,
 	
-	UIRateThatAnimeNativeItemDisclosure = -15,
+	UIAnimeBoardNativeItemDisclosure = -15,
 	
-	UIRateThatAnimeNativeItemContactAdd = -16
+	UIAnimeBoardNativeItemContactAdd = -16
 };
 
 
@@ -617,7 +617,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
     
 /**
- *	TiThreadPerformOnMainThread should replace all RateThatAnime instances of
+ *	TiThreadPerformOnMainThread should replace all AnimeBoard instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

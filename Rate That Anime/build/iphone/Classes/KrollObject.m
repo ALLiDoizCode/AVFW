@@ -302,10 +302,10 @@ bool KrollSetProperty(TiContextRef jsContext, TiObjectRef object, TiStringRef pr
 
 // forward declare these
 
-//@interface RateThatAnimeObject : NSObject
+//@interface AnimeBoardObject : NSObject
 //@end
 
-@interface RateThatAnimeObject (Private)
+@interface AnimeBoardObject (Private)
 -(NSDictionary*)modules;
 @end
 
@@ -323,9 +323,9 @@ void KrollPropertyNames(TiContextRef ctx, TiObjectRef object, TiPropertyNameAccu
 	{
 		id target = [o target];
 		
-		if ([o isKindOfClass:[RateThatAnimeObject class]])
+		if ([o isKindOfClass:[AnimeBoardObject class]])
 		{
-			for (NSString *key in [[(RateThatAnimeObject*)o modules] allKeys])
+			for (NSString *key in [[(AnimeBoardObject*)o modules] allKeys])
 			{
 				TiStringRef value = TiStringCreateWithUTF8CString([key UTF8String]);
 				TiPropertyNameAccumulatorAddName(propertyNames,value);

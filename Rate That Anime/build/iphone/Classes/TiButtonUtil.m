@@ -16,23 +16,23 @@
 {
 	switch (type)
 	{
-		case UIRateThatAnimeNativeItemInfoLight:
+		case UIAnimeBoardNativeItemInfoLight:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoLight];
 		}
-		case UIRateThatAnimeNativeItemInfoDark:
+		case UIAnimeBoardNativeItemInfoDark:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoDark];
 		}
-		case UIRateThatAnimeNativeItemDisclosure:
+		case UIAnimeBoardNativeItemDisclosure:
 		{
 			return [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 		}
-		case UIRateThatAnimeNativeItemContactAdd:
+		case UIAnimeBoardNativeItemContactAdd:
 		{
 			return [UIButton buttonWithType:UIButtonTypeContactAdd];
 		}
-		case UIRateThatAnimeNativeItemSpinner:
+		case UIAnimeBoardNativeItemSpinner:
 		{
 			UIActivityIndicatorView *button = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite] autorelease];
 			[button startAnimating];

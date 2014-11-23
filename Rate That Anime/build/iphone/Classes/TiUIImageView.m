@@ -449,7 +449,7 @@ DEFINE_EXCEPTIONS
 -(void)loadDefaultImage:(CGSize)imageSize
 {
     // use a placeholder image - which the dev can specify with the
-    // defaultImage property or we'll provide the RateThatAnime stock one
+    // defaultImage property or we'll provide the AnimeBoard stock one
     // if not specified
     NSURL *defURL = [TiUtils toURL:[self.proxy valueForKey:@"defaultImage"] proxy:self.proxy];
     

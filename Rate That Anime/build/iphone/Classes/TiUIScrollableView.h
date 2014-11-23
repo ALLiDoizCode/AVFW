@@ -33,7 +33,7 @@
     BOOL pageChanged;
 }
 
-#pragma mark - RateThatAnime Internal Use Only
+#pragma mark - AnimeBoard Internal Use Only
 -(void)manageRotation;
 -(UIScrollView*)scrollview;
 -(void)refreshScrollView:(CGRect)visibleBounds readd:(BOOL)readd;
